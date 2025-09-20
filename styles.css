@@ -1,0 +1,131 @@
+/* Global Dark Theme */
+body.theme-dark {
+  background: linear-gradient(180deg, #020617, #031029);
+  color: #e2e8f0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Section Titles */
+.section-title {
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(24,176,255,0.6);
+  margin-bottom: 2rem;
+}
+
+/* Neon Hover Text */
+.neon-text:hover {
+  text-shadow: 0 0 12px rgba(24,176,255,0.9);
+}
+
+/* Hero Section */
+.hero {
+  background: radial-gradient(circle at top, #04142d 0%, #020617 100%);
+}
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid rgba(24,176,255,0.3);
+  box-shadow: 0 0 20px rgba(24,176,255,0.4);
+}
+
+/* Floating WhatsApp Button */
+.whatsapp-float {
+  position: fixed;
+  text-decoration: none;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  color: white;
+  font-size: 1.8rem;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+.whatsapp-float:hover {
+  background: #1ebe5d;
+  color: #020617;
+  transform: scale(1.1);
+}
+
+/* Skills Progress Bar */
+.skill h6 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+.progress {
+  height: 10px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 50px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.progress-bar {
+  background: linear-gradient(90deg, #18b0ff, #0078d7);
+  width: 0%; /* Default state, starts empty */
+  transition: width 1.5s ease-in-out;
+}
+
+/* Education Timeline */
+.timeline {
+  position: relative;
+  padding-left: 20px;
+  border-left: 2px solid rgba(24,176,255,0.3);
+}
+.timeline-item {
+  margin-bottom: 1.5rem;
+}
+.timeline-item h5 {
+  color: #fff;
+}
+.timeline-item p {
+  color: #cbd5e1;
+}
+
+/* Project Cards */
+.project-card {
+  background: #04142d;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: all 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 15px rgba(24,176,255,0.4);
+}
+.project-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Contact Form */
+.contact-form {
+  background: #04142d;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+.contact-form input,
+.contact-form textarea {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #fff;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #18b0ff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(24,176,255,0.4);
+}
+
+/* Footer */
+footer {
+  background: #020617;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
